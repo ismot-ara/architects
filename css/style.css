@@ -213,11 +213,21 @@ main{
     justify-content: space-around;
     text-align: center;
 }
+
 .fact-box{
     border: 1px solid var(--secondary-color);
     border-radius: 8px;
     padding: 60px 45px;
 }
+.fact-box:hover{
+    animation-name: anime;
+    animation-duration: 1s;
+    background-color: var(--secondary-color);
+}
+@keyframes anime {
+    0%   {rotate: 0deg;}
+    100% {rotate: 360deg;} 
+  }
 .fact-box h4{
     font-weight: 600;
     font-size: 45px;
@@ -229,6 +239,42 @@ main{
     font-size: 20px;
     color: var(--des-color);
 }
+/* Contacts sections style  */
+.contact{
+    background-color: #FFF4E7;
+    width: 1440px;
+    padding: 80px 20px;
+    display: flex;
+    border-radius: 10px;
+ }
+ .form, .map{
+    width: 50%;
+ }
+ .form{
+    background-image: url(../images/contact-form-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-top: 100px;
+ }
+ .map iframe{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ input[type="text"],  input[type="email"]{
+    display: block;
+    width: 80%;
+    padding: 30px 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--secondary-color);
+    margin-left: 30px;
+ }
+ input[type="submit"]{
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
 /* Sponsors section styles */
 .sponsors{
     text-align: center;

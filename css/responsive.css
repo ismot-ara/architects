@@ -70,6 +70,20 @@
         flex-direction: column;
         gap: 30px;
     }
+    /* Contact section responsive */
+    .contact{
+        width: 100%;
+        flex-direction: column;
+    }
+    .form, .map{
+        width: 100%;
+     }
+     .map{
+        margin-bottom: 30px;
+     }
+     .map iframe{
+        border-radius: 10px;
+     }
     /* sponsor section responsive */
     .sponsors p{
         width: 100%; 
@@ -146,6 +160,20 @@
         flex-direction: column;
         gap: 30px;
     }
+    /* Contact section responsive */
+    .contact{
+        width: 100%;
+        flex-direction: column;
+    }
+    .form, .map{
+        width: 100%;
+     }
+     .map{
+        margin-bottom: 30px;
+     }
+     .map iframe{
+        border-radius: 10px;
+     }
     /* sponsor section responsive */
     .sponsors p{
         width: 100%; 
