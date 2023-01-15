@@ -1,0 +1,166 @@
+/* Mobile device */
+@media screen and (max-width:576px) {
+    /* header responsive */
+    .header{
+        padding: 0 20px;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu, .banner, .banner-description{
+        width: 100%;
+    }
+   
+    .nav ul li{
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .logo h1{
+        margin-bottom: 20px;
+    }
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+        margin: 20px 0;
+    }
+    .banner img{
+        max-width: 100%;
+    }
+    /* feature responsive */
+    .feature{
+        flex-direction: column;
+        width: 100%;
+    }
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    /* service section responsive  */
+    .service{
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .service-info, .service-banner{
+        width: 100%;
+    }
+    .service-info h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service-box{
+        left:0;
+        bottom:-69px;
+        padding: 25px 22px;
+    }
+    /* Facts section responsive */
+    .facts{
+        width: 100%;
+        margin: 0;
+    }
+    .facts > p{
+        width: 100%;
+    }
+    .anim-box{
+        flex-direction: column;
+        gap: 30px;
+    }
+    /* sponsor section responsive */
+    .sponsors p{
+        width: 100%; 
+    }
+    .sponsor-logos{
+        width: 100%;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    .sponsor-logos img{
+        width: 70%;
+    }
+    /* Footer section responsive */
+    .footer-container{
+        width: 100%;
+    }
+}
+/* tab device */
+@media screen and (min-width:577px) and (max-width:1200px) {
+    /* header responsive */
+    .header{
+        padding: 0 20px;
+    }
+    .menu, .banner, .banner-description{
+        width: 100%;
+    }
+    .menu{
+        padding: 25px 0;
+    }
+    .logo h1 a{
+        font-size: 25px;
+    }
+    
+    .nav ul li {
+        margin-left: 20px;
+    }
+    .banner-title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+    .banner img{
+        max-width: 100%;
+    }
+    /* feature responsive */
+    .feature{
+        flex-direction: column;
+        width: 100%;
+    }
+    .gallery img{
+        width: 100%;
+    }
+    /* service section responsive */
+    .service{
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-info, .service-banner{
+        width: 100%;
+    }
+    .service-box{
+        left:0;
+        bottom:-69px;
+    }
+    /* Facts section responsive */
+    .facts{
+        width: 100%;
+        margin: 0;
+    }
+    .facts > p{
+        width: 100%;
+    }
+    .anim-box{
+        flex-direction: column;
+        gap: 30px;
+    }
+    /* sponsor section responsive */
+    .sponsors p{
+        width: 100%; 
+    }
+    .sponsor-logos{
+        width: 100%;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    .sponsor-logos img{
+        width: 70%;
+    }
+    /* Footer section responsive */
+    .footer-container{
+        width: 100%;
+    }
+}
